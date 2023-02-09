@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +9,8 @@
 .container {
   height: 100vh;
   width: 100%;
-  border: 1px solid red;
   display: flex;
+  margin: auto;
 }
 
 .left_svg,
@@ -19,4 +21,107 @@
 
 .left_svg {
   background-color: #ecbc76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_form {
+  background-color: #fffef9;
+  font-family: "Poppins", sans-serif;
+  padding: 79px 68px;
+}
+
+.form_div {
+  height: 100%;
+  border-radius: 40px;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+}
+
+.form_heading > p {
+  font-size: 20px;
+  padding: 58px 45px 0px;
+}
+
+.form_heading > h1 {
+  font-size: 55px;
+  font-weight: 500;
+  margin: 0px 45px;
+}
+
+.email_username_div,
+.password_div {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 45px;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.email_username_div > input,
+.password_div > input {
+  padding: 5px;
+  border: 1px solid #adadad;
+  border-radius: 9px;
+  padding: 19px 25px;
+  color: #808080;
+  font-size: 14px;
+  outline: 0px;
+}
+.email_username_div > input:focus,
+.password_div > input:focus {
+  outline: 1px solid #4285f4;
+}
+
+.email_username_div > input::placeholder,
+.password_div > input::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  color: #808080;
+}
+
+.forgot_password {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 45px;
+}
+
+.forgot_password > p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ad3113;
+  cursor: pointer;
+}
+.forgot_password > p:hover {
+  color: #dd3d15;
+}
+
+.signin_div {
+  padding: 20px 45px;
+}
+
+.signin_div > button {
+  background: #e48700;
+  box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0px;
+}
+
+.no_acc_signup_div {
+  color: #8d8d8d;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 45px 11px;
+  gap: 5px;
+}
+
+.no_acc_signup_div > a {
+  text-decoration: none;
+  color: #b87514;
 }
