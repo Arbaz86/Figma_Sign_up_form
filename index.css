@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+}
+
+.left_svg,
+.right_form {
+  width: 50%;
+  height: 100%;
+}
+
+.left_svg {
+  background-color: #ecbc76;
+}
