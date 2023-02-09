@@ -36,6 +36,7 @@
   height: 100%;
   border-radius: 40px;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
 }
 
 .form_heading > p {
@@ -124,4 +125,49 @@
 .no_acc_signup_div > a {
   text-decoration: none;
   color: #b87514;
+}
+
+.other_signup_div {
+  text-align: center;
+  padding: 15px 45px;
+}
+
+.other_signup_div > p {
+  color: #b5b5b5;
+}
+
+.social_signup_links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social_signup_links > img {
+  margin: 32px 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  .form_heading > p {
+    font-size: 14px;
+  }
+
+  .form_heading > h1 {
+    font-size: 35px;
+  }
+
+  .email_username_div > label,
+  .password_div > label {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .right_form {
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+  }
+  .left_svg {
+    display: none;
+  }
 }
