@@ -2,6 +2,10 @@
 
 This project is a signup form designed using Figma and implemented using HTML and CSS. The signup form provides a user-friendly interface for capturing user information during the registration process.
 
+## Preview
+
+![Signup Form Preview](images/screenshots/figma-signup-screenshot.png)
+
 ## Features
 
 - User-friendly and visually appealing signup form design.
@@ -25,6 +29,3 @@ git clone https://github.com/Arbaz86/Figma_Sign_up_form.git
 2. Open the project directory.
 3. Open the index.html file in a web browser to view the signup form.
 
-## Preview
-
-![Signup Form Preview](images/screenshots/figma-signup-screenshot.png)
